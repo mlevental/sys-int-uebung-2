@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# bottle      Thil script starts the python bottle server
+#
+# chkconfig: 2345 99 33
+# description: start bottle python server
+# processname: bottle
+
+# See how we were called.
+case "$1" in
+    start)
+    python /home/ec2-user/sys-int-uebungen/sys-int-uebung-1/index.py
+esac
