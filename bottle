@@ -9,5 +9,5 @@
 # See how we were called.
 case "$1" in
     start)
-    python /home/ec2-user/sys-int-uebungen/sys-int-uebung-1/index.py
+    python /home/ec2-user/sys-int-uebungen/sys-int-uebung-2/index.py
 esac

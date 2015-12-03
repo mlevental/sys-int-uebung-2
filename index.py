@@ -30,5 +30,5 @@ def show_mb(mb):
     return static_file(mb, root=".")
 
 
-bottle.TEMPLATE_PATH.insert(0, 'home/ec2-user/sys-int-uebungen/sys-int-uebung-1/')
+bottle.TEMPLATE_PATH.insert(0, 'home/ec2-user/sys-int-uebungen/sys-int-uebung-2/')
 run(server='paste', host='0.0.0.0', port=8080, debug=True)
